@@ -1,0 +1,8 @@
+.logo-link {
+  padding: 10px;
+  transition: shadow, 0.2s linear;
+}
+.logo-link:hover {
+  box-shadow: 1px 1px 10px 9px white;
+  border-radius: 35%;
+}

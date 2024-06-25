@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding-top: 140px;
+  background-image: url("./assets/bgimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 1300px;
+}
+.container {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}

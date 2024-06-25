@@ -1,0 +1,81 @@
+.details-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.biography-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: color 0.4s linear;
+}
+.biography-title:hover {
+  color: aqua;
+}
+.biography-title:nth-of-type(1)::before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/bioicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+}
+.education-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: color 0.4s linear;
+}
+.education-title:hover {
+  color: aqua;
+}
+.education-title::before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/education.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+}
+.gym-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: color 0.4s linear;
+}
+.gym-title:hover {
+  color: aqua;
+}
+.gym-title::before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/gymicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+}
+.interests-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: color 0.4s linear;
+}
+.interests-title:hover {
+  color: aqua;
+}
+.interests-title::before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/interestsicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+}

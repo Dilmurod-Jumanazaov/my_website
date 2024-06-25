@@ -1,0 +1,58 @@
+.hover::after {
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background-color: aqua;
+  padding: 2px px;
+  content: "";
+  transition: background-color, 0.4s linear,color 0.4s linear;
+}
+.hover:hover::after {
+  width: 70%;
+  border-radius: 10px;
+}
+.hover:hover {
+  color: aqua;
+}
+.active {
+  color: aqua;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu-item:nth-child(1)::before {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../../assets/homeicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  content: "";
+}
+.menu-item:nth-child(2)::before {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../../assets/abouticon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  content: "";
+}
+.menu-item:nth-child(3)::before {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../../assets/fileicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  content: "";
+}
